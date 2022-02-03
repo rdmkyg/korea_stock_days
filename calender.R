@@ -140,7 +140,7 @@ get_day_fun <- function(today1){
 
 
 # 오늘일자가 4-2일 이라고 가정 함
-  n_days = (net_calender %>% filter(date == today1))$n -1
+  n_days = (net_calender %>% filter(date == today1))$n 
 
   if(length(n_days)==0) {
     get_date = 1
